@@ -5,18 +5,17 @@ import (
 	"net/http"
 )
 
-func index_handler(w http.ResponseWriter,r *http.Request){
-	fmt.Fprintf(w,"Whoa,go is neat")
+func index_handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Whoa,go is neat")
 }
 
-
-func about_handler(w http.ResponseWriter,r *http.Request){
-	fmt.Fprintf(w,"Go developer")
+func about_handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Go developer")
 }
 
-func main () {
-	http.HandleFunc("/",index_handler)
-	http.HandleFunc("/about",about_handler)
-	http.ListenAndServe(":8000",nil)
+func main() {
+	http.HandleFunc("/", index_handler)
+	http.HandleFunc("/about", about_handler)
+	http.ListenAndServe(":8000", nil)
 
 }

@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func main()  {
+func main() {
 
 	response, _ := http.Get("https://timesofindia.indiatimes.com/sitemap.cms")
 	bytes, _ := ioutil.ReadAll(response.Body)
