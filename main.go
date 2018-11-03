@@ -19,6 +19,14 @@ func add(x float64, y float64) float64 {
 func main() {
 
 	//pointer & memory address and * read from the address
+	m := `djhfk
+dkjfnd kdsjhnfd
+dslkjsldf sdlkjn`
+	println(m)
+	n := "djhfsdd" +
+		"dskjnds" +
+		"dljs"
+	println(n)
 	x := 15
 	a := &x
 	println(a)
