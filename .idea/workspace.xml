@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75de0ea-2511-4976-b088-89ba1712ecab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FrogJmp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PermMissingElem.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TapeEquilibrium.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,26 +28,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="34" />
+          <entry key="go" value="35" />
           <entry key="html" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="34" />
+          <entry key="Go" value="35" />
           <entry key="HTML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="6262" />
+          <entry key="go" value="6588" />
           <entry key="html" value="37" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="6262" />
+          <entry key="Go" value="6588" />
           <entry key="HTML" value="37" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -59,22 +58,13 @@
           <entry key=".copy" value="4" />
           <entry key=".len" value="1" />
           <entry key=".println" value="2" />
-          <entry key=".sort" value="1" />
+          <entry key=".sort" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webbasics.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,11 +137,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrogJmp.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TapeEquilibrium.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,6 +209,7 @@
         <option value="$PROJECT_DIR$/OddOccurrencesInArray.go" />
         <option value="$PROJECT_DIR$/PermMissingElem.go" />
         <option value="$PROJECT_DIR$/FrogJmp.go" />
+        <option value="$PROJECT_DIR$/TapeEquilibrium.go" />
       </list>
     </option>
   </component>
@@ -269,7 +272,7 @@
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/FrogJmp.go" />
+      <filePath value="$PROJECT_DIR$/TapeEquilibrium.go" />
       <package value="practice" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -277,7 +280,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1602" height="857" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13706563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,13 +287,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32871014" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32871014" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -320,6 +322,18 @@
           <line>13</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TapeEquilibrium.go</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/TapeEquilibrium.go</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -485,8 +499,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrogJmp.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TapeEquilibrium.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
