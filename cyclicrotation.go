@@ -2,7 +2,7 @@ package main
 
 func main()  {
 	a:= []int{1,2,3,4}
-	var o = Solution(a,3)
+	var o = Solution(a,97)
 	for index:= range o {
 		println(a[index])
 	}
